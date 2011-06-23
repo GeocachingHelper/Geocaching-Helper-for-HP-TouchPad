@@ -1,0 +1,44 @@
+<!--
+Geocaching Helper for HP TouchPad is a handy utility that helps geocachers solve
+common problems on their geocaching trips.
+Copyright (C) 2011  Dustin Steiner
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<!doctype html>
+<html>
+<head>
+<title>Geocaching Helper</title>
+<script
+	src="file:///opt/PalmSDK/current/share/refcode/framework/enyo/1.0/framework/enyo.js"
+	launch="nobridge" type="text/javascript"></script>
+</head>
+<body>
+	<div id="aboutIconsContent" style="display: none;">
+		<a
+			href="http://www.iconfinder.com/icondetails/51567/128/help_lifesaver_support_icon">Lifesaver</a>
+		in logo by Louise harboe <br /> <a
+			href="http://www.iconfinder.com/browse/iconset/kids/">Icons</a> by
+		Everaldo Coelho <br /> found via <a href="http://iconfinder.com">iconfinder.com</a>.
+		<br /> <a href="http://en.wikipedia.org/wiki/File:Geocaching.svg">International
+			geocaching logo</a> found on Wikipedia
+	</div>
+	<div id="app"></div>
+	<script type="text/javascript">
+		new at.dsteiner.webos.gchelper.GCHelper().renderInto(document
+				.getElementById("app"));
+	</script>
+</body>
+</html>
