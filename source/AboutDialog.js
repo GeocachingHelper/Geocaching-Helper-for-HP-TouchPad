@@ -55,7 +55,7 @@ enyo
 									layoutKind: "VFlexLayout",
 									components: [
 											{
-												content: "A small app for HP TouchPad that helps geocachers solve several common problems in the field.",
+												content: "The Geocaching Helper is a handy utility for the HP TouchPad that helps geocachers solve common problems for and during their geocaching trips.",
 												style: "margin-bottom:10px;"
 											}, {
 												content: "Icons:",

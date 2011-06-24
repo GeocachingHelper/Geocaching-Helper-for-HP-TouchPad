@@ -1,6 +1,6 @@
 {
 	"id": "at.dsteiner.webos.gchelper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"vendor": "Dustin Steiner",
 	"type": "web",
 	"main": "index.html",

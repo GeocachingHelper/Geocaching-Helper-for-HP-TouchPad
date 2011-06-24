@@ -32,7 +32,7 @@ enyo.kind({
 		} else if (!last) {
 			result = value % 10 + this.calculateDigitSum(parseInt(value / 10));
 		} else {
-			result = this.calculateDigitSum(value % 10 + parseInt(value / 10));
+			result = this.calculateDigitSum(value % 10 + parseInt(value / 10), last);
 		}
 		return parseInt(result);
 	}
